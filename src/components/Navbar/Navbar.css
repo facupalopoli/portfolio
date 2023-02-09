@@ -1,0 +1,91 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 6vw;
+    position: sticky;
+    top: 0;
+    background-color: var(--grisClaro);    
+}
+
+.navBar{
+    display: flex;
+    gap: 4vw;
+}
+
+.navBar > a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--negro);
+}
+
+.navBar span{
+    padding-bottom: 4px;
+}
+
+.navBar > a:hover{
+    color: var(--azul);
+    
+}
+
+.navBar > a:hover span{
+    border-bottom-width: 3px;
+	border-bottom-style: solid;
+    /* animation-name: subrayadoNav;
+    animation-duration: 1s; */
+}
+
+/* @keyframes subrayadoNav {
+    0%{
+        transform: translate(-180px);
+        opacity: 0;
+    }    
+    100%{
+        transform: translate(0);    
+        opacity: 1;
+    }
+} */
+
+.hamburguesa{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburguesa:hover{
+    animation-name: giraHamb;
+    animation-duration: .4s;
+}
+
+@keyframes giraHamb {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 1280px){
+    .header > img{
+        width: 22%;
+    }
+    .header{
+        padding: 1.2rem 6vw;
+    }
+    .navBar{
+        gap: 3vw;
+    }
+    .navBar > a{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px){
+    .navBar{
+        display: none;
+    }
+    .hamburguesa{
+        display: block;
+    }
+}

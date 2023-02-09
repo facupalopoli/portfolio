@@ -1,0 +1,170 @@
+.contact{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact > h2{
+    padding-bottom: 70px;
+}
+
+.divContact{
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+}
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding-top: 40px;
+}
+
+.connect > h3{
+    font-size: 2.5rem;
+    color: var(--azul);
+    font-weight: 500;
+}
+
+.connect > h4{
+    font-size: 2rem;
+    color: var(--negro);
+    font-weight: 500;
+}
+
+.redes{
+    display: flex;
+    gap: 40px;
+}
+
+.redes i{
+    color: var(--azul);
+    font-size: 3.5rem;
+}
+
+.formulario{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 55%;
+}
+
+.formulario > h3{
+    font-size: 2rem;
+    color: var(--negro);
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.formulario p {
+    font-size: 1.7rem;
+    color: var(--grisOscuro);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario div{
+    display: flex;
+    background-color: var(--grisClaro);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.inputMensaje{
+    align-items: center;
+}
+
+input{
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--negro);
+    width: 85%;
+}
+
+textarea{
+    padding-left: 20px;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 15vh;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--negro);
+    resize: none;
+}
+
+.btnEnviar{
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7rem;
+    background-color: var(--azul);
+    border: 0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    color: white;
+    width: 350px;
+}
+
+@media (max-width: 1280px){
+    .contact{
+        margin-top: 100px;
+    }
+    .contact > h2{
+        padding-bottom: 50px;
+    }
+    .connect{
+        gap: 35px;
+        padding-top: 28px;
+    }
+    .connect > h3{
+        font-size: 2rem;
+    }
+    
+    .connect > h4{
+        font-size: 1.5rem;
+    }
+    .redes i{
+        font-size: 3rem;
+    }
+    .formulario{
+        padding: 20px;
+        gap: 15px;
+        flex-basis: 60%;
+    }
+    .formulario > h3{
+        font-size: 1.5rem;
+        padding: 15px 0;
+    }
+    .formulario p {
+        font-size: 1.3rem;
+    }
+    .formulario div{
+        padding: 20px;
+    }
+    input{
+        padding-left: 15px;
+        font-size: 1.2rem;
+    }    
+    textarea{
+        padding-left: 15px;
+        font-size: 1.2rem;
+    }    
+    .btnEnviar{
+        font-size: 1.3rem;
+        padding: 1rem;
+        width: 250px;
+    }
+}

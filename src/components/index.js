@@ -1,0 +1,10 @@
+export { Navbar } from './Navbar'
+export { Main } from './Main'
+export { Footer } from './Footer'
+
+export { About } from './Main/About'
+export { Contact } from './Main/Contact'
+export { Experties } from './Main/Experties'
+export { Hero } from './Main/Hero'
+export { Projects } from './Main/Projects'
+export { Testimonials } from './Main/Testimonials'
