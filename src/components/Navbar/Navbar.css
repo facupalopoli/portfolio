@@ -89,3 +89,9 @@
         display: block;
     }
 }
+
+@media (max-width: 480px){
+    .header > img{
+        width: 40%;
+    }
+}

@@ -82,3 +82,25 @@
         padding: 30px 0;
     }
 }
+
+@media (max-width: 480px){
+    .experties{
+        margin-top: 30px;
+    }
+    .experties > h2{
+        padding-bottom: 30px;
+    }
+    .expCard{
+        gap: 20px;
+        flex-basis: 44%;
+        padding: 30px 0;
+    }
+    .expCard > i{
+        font-size: 3rem;
+        padding: 20px 30px;
+    }
+    .expCard > h3{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}

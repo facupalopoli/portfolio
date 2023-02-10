@@ -77,3 +77,22 @@
         color: var(--negro);
     }
 }
+
+@media (max-width: 480px){
+    .about{
+        padding: 20px 0 50px 0;
+    }
+    .aboutInfo{
+        gap: 30px
+    }
+    .aboutTitle{
+        font-size: 2rem;
+    }
+    .years{
+        font-size: 1.5rem;
+    }
+    .textoAbout{
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+}

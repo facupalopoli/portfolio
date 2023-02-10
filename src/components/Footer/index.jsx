@@ -5,7 +5,7 @@ const Footer = () => {
         <section className='footer'>
             <div className='divFooter'>
                 <div>
-                    <h3>@2023 Creaciones</h3>
+                    <h3 className='creaciones'>@2023 Creaciones</h3>
                     <div className='redesFooter'>
                         <a href='https://www.facebook.com/juanfacundo.palopoli' target='_blank'><i className="bi bi-facebook"></i></a>                        
                         <a href='https://www.instagram.com/palofacu/' target='_blank'><i className="bi bi-instagram"></i></a>

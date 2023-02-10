@@ -99,3 +99,33 @@
         padding: 1.2rem;
     }
 }
+
+@media (max-width: 768px){
+    .projects{
+        margin-top: 40px;
+    }
+    .infoProject p{
+        display: none;
+    }
+
+}
+
+@media (max-width: 480px){
+    .projects{
+        margin-top: 30px;
+    }
+    .projects > h2{
+        padding-bottom: 30px;
+    }
+    .cardProject{
+        flex-basis: 100%;
+        margin-bottom: 0px;
+    }
+    .infoProject > h2{
+        font-size: 1.3rem;
+    }
+    .infoProject > button{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}

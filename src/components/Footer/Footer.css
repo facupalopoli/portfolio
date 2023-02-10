@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    height: 15vh;
 }
 
 .divFooter{
@@ -11,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     width: 88%;
+    padding: 20px;
 }
 
 .divFooter > div{
@@ -38,7 +38,6 @@
 @media (max-width: 1280px){
     .footer{
         margin-top: 50px;
-        height: 10vh;
     }
     .divFooter h3{
         font-size: 1.5rem;
@@ -47,4 +46,33 @@
     .redesFooter i{
         font-size: 2rem;
     }
+}
+
+@media (max-width: 768px){
+    .footer{
+        margin-top: 40px;
+    }
+    .divFooter{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .divFooter > div{
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px){
+    .divFooter{
+        gap: 10px;
+    }
+    .divFooter h3{
+        font-size: 1rem;
+    }
+    .redesFooter i{
+        font-size: 1.5rem;
+    }
+    .creaciones{
+        display: none;
+    }
+    
 }
