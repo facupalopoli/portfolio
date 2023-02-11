@@ -17,6 +17,7 @@
     font-size: 1.5rem;
     text-decoration: none;
     color: var(--negro);
+ /*    position: relative; */
 }
 
 .navBar span{
@@ -31,20 +32,7 @@
 .navBar > a:hover span{
     border-bottom-width: 3px;
 	border-bottom-style: solid;
-    /* animation-name: subrayadoNav;
-    animation-duration: 1s; */
 }
-
-/* @keyframes subrayadoNav {
-    0%{
-        transform: translate(-180px);
-        opacity: 0;
-    }    
-    100%{
-        transform: translate(0);    
-        opacity: 1;
-    }
-} */
 
 .hamburguesa{
     font-size: 2rem;
@@ -52,9 +40,29 @@
     display: none;
 }
 
+.cruz{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.cruz:hover{
+    animation-name: giraCruz;
+    animation-duration: .4s;
+}
+
 .hamburguesa:hover{
     animation-name: giraHamb;
     animation-duration: .4s;
+}
+
+@keyframes giraCruz {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
 }
 
 @keyframes giraHamb {
@@ -83,11 +91,29 @@
 
 @media (max-width: 768px){
     .navBar{
-        display: none;
+        position: absolute;
+        top: 74px;
+        right: 0;
+        flex-direction: column;
+        transition: 0.3s ease all;
+        gap: 40px;
+        background: linear-gradient(rgb(250,250,250, 0.8), rgb(226,241,251,0.9));
+        padding: 3rem;
+        border-radius: 0px 0px 0px 20px;
+        transform: translateY(-1000px);
+    }
+    .navBar.open{
+        transform: translateY(0px);
+    }
+    .navBar > a{
+        font-size: 1.5rem;
     }
     .hamburguesa{
         display: block;
     }
+    .cruz{
+        display: block;
+    }        
 }
 
 @media (max-width: 480px){
