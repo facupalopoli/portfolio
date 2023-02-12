@@ -5,7 +5,8 @@
     padding: 1.5rem 6vw;
     position: sticky;
     top: 0;
-    background-color: var(--grisClaro);    
+    background-color: var(--grisClaro);
+    z-index: 1;
 }
 
 .navBar{
@@ -17,7 +18,6 @@
     font-size: 1.5rem;
     text-decoration: none;
     color: var(--negro);
- /*    position: relative; */
 }
 
 .navBar span{
@@ -26,7 +26,7 @@
 
 .navBar > a:hover{
     color: var(--azul);
-    
+    transition: 0.1s linear all;
 }
 
 .navBar > a:hover span{

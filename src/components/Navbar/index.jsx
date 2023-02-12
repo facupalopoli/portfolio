@@ -3,7 +3,7 @@ import './Navbar.css';
 import logo from '../../assets/logoPortfolio.png'
 
 const Navbar = () => {
-    const [menuToggle, setMenuToggle] = useState(false);
+    const [menuToggle, setMenuToggle] = useState(false)
 
     return(
         <header className='header'>

@@ -53,18 +53,30 @@
 
 .btnHire{
     background-color: var(--azul);
+    transition: 0.1s linear all;
 }
 
 .btnHire > a{
     color: var(--grisClaro);
 }
 
+.btnHire:hover{
+    transform: scale(1.1);
+    transition: 0.1s linear all;
+}
+
 .btnPortfolio{
     background-color: transparent;
+    transition: 0.1s linear all;
 }
 
 .btnPortfolio > a {
     color: var(--azul);
+}
+
+.btnPortfolio:hover{
+    transform: scale(1.1);
+    transition: 0.1s linear all;
 }
 
 .botones a{

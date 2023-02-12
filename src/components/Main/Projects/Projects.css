@@ -71,6 +71,10 @@
     color: var(--grisClaro);
 }
 
+.infoProject a:hover{
+    text-decoration: underline 3px;
+}
+
 @media (max-width: 1280px){
     .projects{
         margin-top: 100px;

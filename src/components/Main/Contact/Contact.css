@@ -39,9 +39,19 @@
     gap: 40px;
 }
 
+.redes a{
+    transition: 0.1s linear all;
+}
+
 .redes i{
     color: var(--azul);
     font-size: 3.5rem;
+    transition: 0.1s linear all;
+}
+
+.redes a:hover{
+    transform: scale(1.2);
+    transition: 0.1s linear all;
 }
 
 .formulario{
@@ -53,7 +63,7 @@
     width: 55%;
 }
 
-.formulario > h3{
+.tituloForm{
     font-size: 2rem;
     color: var(--negro);
     font-weight: 500;
@@ -65,10 +75,14 @@
     color: var(--grisOscuro);
 }
 
-form{
+.datosForm{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.lleno{
+    opacity: 0.3;
 }
 
 .formulario div{
@@ -111,11 +125,32 @@ textarea{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.7rem;
     background-color: var(--azul);
-    border: 0;
+    border: 2px solid var(--azul);
     padding: 1.5rem;
     border-radius: 8px;
     color: white;
     width: 350px;
+    transition: 0.1s linear all;
+}
+
+.btnEnviar:hover{
+    transition: 0.1s linear all;
+    background-color: white;
+    color: var(--azul);
+}
+
+.btnEnviar.lleno:hover{
+    cursor: initial;
+    background-color: var(--azul);
+    color: white;
+}
+
+.mensajeExito{
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+    font-size: 1.7rem;
+    transition: 0.2s linear all;
 }
 
 @media (max-width: 1280px){
@@ -187,6 +222,9 @@ textarea{
         gap: 10px;
         width: 100%;
         border-radius: 20px;
+    }
+    .mensajeExito{
+        font-size: 1.3rem;
     }
 }
 

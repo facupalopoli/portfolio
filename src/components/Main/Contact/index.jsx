@@ -3,11 +3,6 @@ import './Contact.css';
 import { useForm } from '@formspree/react';
 
 const Contact = () => {
-
-    const envioForm = (e) =>{
-        e.preventDefault()
-        console.log(e)        
-    }
     
     const [state, handleSubmit] = useForm("mlekjjpk")
         
@@ -26,26 +21,27 @@ const Contact = () => {
                     </div>   
                 </div>
                 <div className='formulario'>
-                    <h3>Escribime y hagamos magia</h3>
-                    <form onSubmit={handleSubmit}>
+                    <h3 className={state.succeeded ? `tituloForm lleno` : `tituloForm`}>Escribime y hagamos magia</h3>
+                    <form className={state.succeeded ? `datosForm lleno` : `datosForm`} onSubmit={handleSubmit}>
                         <div>
                             <p>Nombre:</p>
-                            <input type="text" name="nombre" id="name" required/>
+                            <input type="text" name="nombre" id="name" required disabled={state.succeeded?'disabled':''}/>
                         </div>
                         <div>
                             <p>Email:</p>
-                            <input type="email" name="correo" id="email" required/>
+                            <input type="email" name="correo" id="email" required disabled={state.succeeded?'disabled':''}/>
                         </div>
                         <div>
                             <p>Asunto:</p>
-                            <input type="text" name="asunto" id="subject" required/>
+                            <input type="text" name="asunto" id="subject" required disabled={state.succeeded?'disabled':''}/>
                         </div>
                         <div className='inputMensaje'>
                             <p>Mensaje:</p>
-                            <textarea name="mensaje" id ="message" required></textarea>
+                            <textarea name="mensaje" id ="message" required disabled={state.succeeded?'disabled':''}></textarea>
                         </div>
-                        <input className='btnEnviar' type="submit" value="Enviar consulta"/>
+                        <input className={state.succeeded ? `btnEnviar lleno` : `btnEnviar`} type="submit" value="Enviar consulta" disabled={state.succeeded?'disabled':''}/>
                     </form>
+                    {state.succeeded && <span className='mensajeExito'>Los datos fueron enviados, gracias por tu consulta!</span>}
                 </div>
             </div>
         </section>
