@@ -49,34 +49,40 @@
     border-radius: 8px;
     border: 2px solid var(--azul);
     cursor: pointer;
+    animation: pulse .8s ease-in-out infinite;
+    animation-play-state: paused;
+}
+
+.botones button:hover{
+    animation-play-state: running;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1.05);
+    }
+    50% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(1.05);
+    }
 }
 
 .btnHire{
     background-color: var(--azul);
-    transition: 0.1s linear all;
 }
 
 .btnHire > a{
     color: var(--grisClaro);
 }
 
-.btnHire:hover{
-    transform: scale(1.1);
-    transition: 0.1s linear all;
-}
-
 .btnPortfolio{
     background-color: transparent;
-    transition: 0.1s linear all;
 }
 
 .btnPortfolio > a {
     color: var(--azul);
-}
-
-.btnPortfolio:hover{
-    transform: scale(1.1);
-    transition: 0.1s linear all;
 }
 
 .botones a{
