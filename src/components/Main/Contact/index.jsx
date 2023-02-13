@@ -24,19 +24,19 @@ const Contact = () => {
                     <h3 className={state.succeeded ? `tituloForm lleno` : `tituloForm`}>Escribime y hagamos magia</h3>
                     <form className={state.succeeded ? `datosForm lleno` : `datosForm`} onSubmit={handleSubmit}>
                         <div>
-                            <p>Nombre:</p>
+                            <label for='name'>Nombre:</label>
                             <input type="text" name="nombre" id="name" required disabled={state.succeeded?'disabled':''}/>
                         </div>
                         <div>
-                            <p>Email:</p>
+                            <label for='email'>Email:</label>
                             <input type="email" name="correo" id="email" required disabled={state.succeeded?'disabled':''}/>
                         </div>
                         <div>
-                            <p>Asunto:</p>
+                            <label for='subject'>Asunto:</label>
                             <input type="text" name="asunto" id="subject" required disabled={state.succeeded?'disabled':''}/>
                         </div>
                         <div className='inputMensaje'>
-                            <p>Mensaje:</p>
+                            <label for='message'>Mensaje:</label>
                             <textarea name="mensaje" id ="message" required disabled={state.succeeded?'disabled':''}></textarea>
                         </div>
                         <input className={state.succeeded ? `btnEnviar lleno` : `btnEnviar`} type="submit" value="Enviar consulta" disabled={state.succeeded?'disabled':''}/>

@@ -70,7 +70,7 @@
     padding: 20px 0;
 }
 
-.formulario p {
+.formulario label {
     font-size: 1.7rem;
     color: var(--grisOscuro);
 }
@@ -184,7 +184,7 @@ textarea{
         font-size: 1.5rem;
         padding: 15px 0;
     }
-    .formulario p {
+    .formulario label {
         font-size: 1.3rem;
     }
     .formulario div{
@@ -252,7 +252,7 @@ textarea{
     .formulario div{
         padding: 15px;
     }
-    .formulario p{
+    .formulario label{
         font-size: 1rem;
     }
     input{
