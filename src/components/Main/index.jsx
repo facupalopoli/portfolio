@@ -5,12 +5,12 @@ import { Hero, About, Experties, Projects, Testimonials, Contact } from '../../c
 const Main = () => {
     return(
         <>
-        <Hero/>
-        <About/>
-        <Experties/>
-        <Projects/>
-        <Testimonials/>
-        <Contact/>
+            <Hero />
+            <About />
+            <Experties />
+            <Projects />
+            <Testimonials />
+            <Contact />
         </>
     )
 }
