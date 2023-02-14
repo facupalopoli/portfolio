@@ -146,12 +146,28 @@ textarea{
     color: white;
 }
 
+.cargando{
+    font-size: 1.5rem;
+    color: var(--azul);
+    animation: giraCarga 1s linear infinite;
+    text-align: center;
+}
+
+@keyframes giraCarga {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
 .mensajeExito{
     text-align: center;
     margin-top: 20px;
     color: green;
     font-size: 1.7rem;
-    transition: 0.2s linear all;
+    transition: 1s linear all;
 }
 
 @media (max-width: 1280px){

@@ -25,10 +25,11 @@
     background-position: bottom;
     height: 80vh;
     padding: 20px;
+    width: 32%;
 }
 
 .uno{
-    background-image: url(../../../assets/testimonials1.jpg);
+    background-image: url(../../../assets/testimonials1.jpeg);
 }
 
 .dos{
