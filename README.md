@@ -10,3 +10,8 @@ Este proyecto se trata de un trabajo práctico correspondiente a la primer parte
 
 * React
 * FormSpree para el formulario e integrado con React
+
+# Deploy
+
+Proyecto deployado en Vercel: https://portfolio-self-six-35.vercel.app/
+
