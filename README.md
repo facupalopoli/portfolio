@@ -1,6 +1,6 @@
 # Portfolio personal
 
-Este proyecto se trata de un trabajo práctico correspondiente a la primer parte de la diplomatura Full Stack Developer de la UTN. A su vez sirve como carta de presentación de mis actuales proyectos hechos en el curso y en mi tiempo libre para ir afianzando mis conocimientos y demostrar mi progreso. Como parte de la consigna del TP el diseño esta basado en el siguiente link de Behance: <a href="https://www.behance.net/gallery/159335899/Portfolio-Website-Landing-Page"></a>
+Este proyecto se trata de un trabajo práctico correspondiente a la primer parte de la diplomatura Full Stack Developer de la UTN. A su vez sirve como carta de presentación de mis actuales proyectos hechos en el curso y en mi tiempo libre para ir afianzando mis conocimientos y demostrar mi progreso. Como parte de la consigna del TP el diseño esta basado en el siguiente link de Behance: <a href="https://www.behance.net/gallery/159335899/Portfolio-Website-Landing-Page">Ver Diseño</a>
 
 # Vista previa
 
