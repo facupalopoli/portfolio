@@ -129,6 +129,16 @@
     }
 }
 
+@media (max-width: 768px) and (max-height: 400px){
+    .navBar{
+        padding: 2rem;
+        flex-direction: row;
+        width: 100%;
+        border-radius: 0;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 480px){
     .header > img{
         width: 40%;
