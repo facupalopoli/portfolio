@@ -61,7 +61,7 @@
     .about{
         background: linear-gradient(rgb(226,241,251,1), rgb(250,250,250, 0.8)), url(../../../assets/aboutImg.png);
         background-size: cover;
-        background-position: top;
+        background-position: bottom;
         margin-top: 0px;
         padding: 40px 0;
     }

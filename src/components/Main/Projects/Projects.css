@@ -88,7 +88,7 @@
         gap: 30px;
     }
     .cardProject{
-        flex-basis: 40%;
+        flex-basis: 48%;
         margin-bottom: 25px;
     }
     .infoProject{
@@ -108,8 +108,8 @@
     .projects{
         margin-top: 40px;
     }
-    .infoProject p{
-        display: none;
+    .cardProject{
+        flex-basis: 100%;
     }
 
 }

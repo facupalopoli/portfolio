@@ -19,14 +19,14 @@ const Testimonials = () => {
                 <div className='cardTestimonial dos'>
                     <div className='infoTestimonial'>
                         <h3>Alejandro Eliceche  <span>★ ★ ★ ★ ★</span></h3>
-                        <p className='cita'>Ha logrado un sitio web con abundante y amena información, estructurado de forma simple y amigable para el usuario, y conforme a una estetica acorde a la de un destino turistico.</p>
+                        <p className='cita'>Ha logrado un sitio web con abundante y amena información, estructurado de forma simple y amigable para el usuario, y conforme a una estetica acorde a la de un destino turístico.</p>
                         <p className='fecha'>15-12-2022</p>
                     </div>
                 </div>
                 <div className='cardTestimonial tres'>
                     <div className='infoTestimonial'>
-                        <h3>Jorge Perez  <span>★ ★ ★ ★ ★</span></h3>
-                        <p className='cita'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, tempora ducimus quaerat perferendis minima recusandae repudiandae reiciendis aspernatur</p>
+                        <h3>Yesica Fumagalli  <span>★ ★ ★ ★ ★</span></h3>
+                        <p className='cita'>Mucha facilidad en la comunicación de ideas y congruencia con el resultado final. Diseños simples, suaves y amigables con cualquier tipo de usuario. A seguir trabajando en futuros proyectos!</p>
                         <p className='fecha'>12-09-2022</p>
                     </div>
                 </div>
