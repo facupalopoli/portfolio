@@ -4,7 +4,7 @@ Este proyecto se trata de un trabajo práctico correspondiente a la primer parte
 
 # Vista previa
 
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSE3u3i2kDcgVH7LzV_VGEgpilbVB3lT6cpOGkyQkRXuMQqvm742zL4wilY2_Us8SXhJFogkGtDzc4XOJOW6IODzBJWcQ=w1920-h937">
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src=["https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSE3u3i2kDcgVH7LzV_VGEgpilbVB3lT6cpOGkyQkRXuMQqvm742zL4wilY2_Us8SXhJFogkGtDzc4XOJOW6IODzBJWcQ=w1920-h937](https://drive.google.com/file/d/14Xmc62VetQgaRBaJ6eEbeSNSxp-nloCx/view?usp=drive_link)">
 
 # Tecnologías utilizadas
 
