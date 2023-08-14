@@ -8,7 +8,7 @@ This project is a practical work corresponding to the first part of the UTN Full
 
 # Vista previa
 
-<img alt="Preview Screenshot" src="https://vercel.com/4530d8e7-a471-4126-96eb-5183dbb1dd07">
+<img alt="Preview Screenshot" src="https://drive.google.com/file/d/14Xmc62VetQgaRBaJ6eEbeSNSxp-nloCx/view?usp=sharing">
 
 # Tecnologías utilizadas
 
