@@ -8,7 +8,7 @@ This project is a practical work corresponding to the first part of the UTN Full
 
 # Vista previa
 
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81qACdrNsVrAMHLN0NtUTLa0zBso6di3QQ-6qSDy926G-CLaH3XW1h2PB235Vh-1EmQBNgEEr9OHebY5CbYlhLU8SFz1ug=w1920-h937">
+<img alt="Preview Screenshot of facupalopoli.vercel.app" class="screenshot_image__tfvPx" src="blob:https://vercel.com/4530d8e7-a471-4126-96eb-5183dbb1dd07">
 
 # Tecnologías utilizadas
 
