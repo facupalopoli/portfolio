@@ -9,7 +9,7 @@ const Hero = () => {
                 <div className='heroIzq'>
                     <h4>Hola,</h4>
                     <h1>Mi Nombre Es <span>Facundo Palópoli</span></h1>
-                    <p>Soy desarrollador web, técnico y músico de Buenos Aires, dispuesto a resolver tus necesidades y ofrecerte un servicio óptimo.</p>
+                    <p>Desarrollador web Full Stack y técnico de Buenos Aires, dispuesto a resolver tus necesidades y ofrecerte un servicio óptimo.</p>
                     <div className='botones'>
                         <button className='btnHire'><a href='mailto:facupalopoli@gmail.com?subject=Consulta sobre pagina web' target='_blank'>Contratame</a></button>
                         <button className='btnPortfolio'><a href='#projects'>Ver Portfolio</a></button>

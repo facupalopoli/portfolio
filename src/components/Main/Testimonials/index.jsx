@@ -25,9 +25,9 @@ const Testimonials = () => {
                 </div>
                 <div className='cardTestimonial tres'>
                     <div className='infoTestimonial'>
-                        <h3>Yesica Fumagalli  <span>★ ★ ★ ★ ★</span></h3>
-                        <p className='cita'>Mucha facilidad en la comunicación de ideas y congruencia con el resultado final. Diseños simples, suaves y amigables con cualquier tipo de usuario. A seguir trabajando en futuros proyectos!</p>
-                        <p className='fecha'>12-09-2022</p>
+                        <h3>Jose Luis Condori  <span>★ ★ ★ ★ ★</span></h3>
+                        <p className='cita'>Es un placer recomendar a Facundo por su destacado desempeño en el curso de Full Stack. Demostró habilidades técnicas sólidas, pasión por el desarrollo web y una actitud colaborativa.</p>
+                        <p className='fecha'>12-07-2023</p>
                     </div>
                 </div>
             </div>
