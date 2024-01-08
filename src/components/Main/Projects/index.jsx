@@ -25,7 +25,7 @@ const Projects = () => {
                     <div className='infoProject'>
                         <h2>E-Commerce</h2>
                         <p>Proyecto final de la diplomatura UTN integrando tecnologías Full Stack.</p>
-                        <button><a href='https://dms.licdn.com/playlist/vid/D4D05AQE40yCxYgTRUw/mp4-720p-30fp-crf28/0/1690418235109?e=1692640800&v=beta&t=-e_S3EIAOsua9-7V7pgA13otiBwN7YyW0fH0gSut1EM' target='_blank'>Ver Demo</a></button>
+                        <button><a href='https://www.linkedin.com/feed/update/urn:li:activity:7090127994832207872/' target='_blank'>Ver Demo</a></button>
                     </div>
                 </div>
                 <div className='cardProject'>
